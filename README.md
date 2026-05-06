@@ -4,7 +4,7 @@ This repo contains a compact pipeline for learning navigation policies for an AS
 using BEV semantic grids and flow-matching models. It covers synthetic map
 generation, demonstration collection, training, and evaluation with rollouts.
 
-![Architecture](images/dit-arch.png)
+<img src="images/dit-arch.png" width="800">
 
 ## Quickstart (end-to-end)
 
@@ -44,11 +44,10 @@ Rollouts and summaries are saved under `outputs/eval/`.
 
 - Map preview:
 
-  ![Map preview](outputs/maps/map_s2_n5_r2/map.png)
-
+  <img src="outputs/maps/map_s2_n5_r2/map.png" width="800">
 - Demo preview (GIF):
 
-  ![Demo preview](outputs/maps/map_s2_n5_r2/bev_rollout.gif)
+  <img src="outputs/maps/map_s2_n5_r2/bev_rollout.gif" autoplay loop muted width=800></img>
 
 If your workspace uses different map ids, replace the path with another folder
 under `outputs/maps/`.
