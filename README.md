@@ -44,11 +44,11 @@ Rollouts and summaries are saved under `outputs/eval/`.
 
 Map preview:
 
-  <img src="outputs/maps/map_s2_n5_r2/map.png" width="800">
+  <img src="images/map.png" width="800">
 
 Demo preview (GIF):
 
-  <img src="outputs/maps/map_s2_n5_r2/bev_rollout.gif" autoplay loop muted width=800></img>
+  <img src="images/bev_rollout.gif" autoplay loop muted width="800"></img>
 
 If your workspace uses different map ids, replace the path with another folder
 under `outputs/maps/`.
