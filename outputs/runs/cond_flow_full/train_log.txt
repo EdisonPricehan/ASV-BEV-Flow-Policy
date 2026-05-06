@@ -1,0 +1,31 @@
+nohup: ignoring input
+Dataset: 28660 train  |  1508 val  |  H=167  data_dim=334
+Model parameters: 1,661,506
+Epoch   20/500  train=0.06512  val=0.06237  lr=2.99e-04
+Epoch   40/500  train=0.06047  val=0.05817  lr=2.95e-04
+Epoch   60/500  train=0.05921  val=0.06037  lr=2.90e-04
+Epoch   80/500  train=0.05827  val=0.05704  lr=2.82e-04
+Epoch  100/500  train=0.05922  val=0.05810  lr=2.72e-04
+Epoch  120/500  train=0.05773  val=0.05733  lr=2.60e-04
+Epoch  140/500  train=0.05799  val=0.05663  lr=2.46e-04
+Epoch  160/500  train=0.05629  val=0.05443  lr=2.31e-04
+Epoch  180/500  train=0.05703  val=0.05459  lr=2.15e-04
+Epoch  200/500  train=0.05730  val=0.05057  lr=1.97e-04
+Epoch  220/500  train=0.05614  val=0.06023  lr=1.79e-04
+Epoch  240/500  train=0.05638  val=0.05432  lr=1.61e-04
+Epoch  260/500  train=0.05659  val=0.05443  lr=1.42e-04
+Epoch  280/500  train=0.05748  val=0.05538  lr=1.24e-04
+Epoch  300/500  train=0.05645  val=0.06205  lr=1.06e-04
+Epoch  320/500  train=0.05613  val=0.05883  lr=8.83e-05
+Epoch  340/500  train=0.05523  val=0.05699  lr=7.19e-05
+Epoch  360/500  train=0.05531  val=0.05539  lr=5.68e-05
+Epoch  380/500  train=0.05627  val=0.05600  lr=4.32e-05
+Epoch  400/500  train=0.05441  val=0.05676  lr=3.14e-05
+Epoch  420/500  train=0.05587  val=0.05977  lr=2.14e-05
+Epoch  440/500  train=0.05597  val=0.05783  lr=1.34e-05
+Epoch  460/500  train=0.05562  val=0.06025  lr=7.67e-06
+Epoch  480/500  train=0.05689  val=0.05845  lr=4.17e-06
+Epoch  500/500  train=0.05452  val=0.05369  lr=3.00e-06
+
+Best val loss: 0.049576
+Outputs saved to: policy/runs/cond_flow_full

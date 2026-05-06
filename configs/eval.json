@@ -1,0 +1,22 @@
+{
+  "_comment": "eval.json — evaluation and rollout parameters.",
+  "_comment2": "Used by: eval_cond_policy.py, sample_and_plot.py, sample_cond_policy_and_rollout.py.",
+  "_comment3": "Load together with common.json via load_config('common', 'eval').",
+
+  "_section_eval": "=== EVALUATION ===",
+  "eval": {
+    "_comment": "Rolling MPC evaluation. M=parallel samples, cfg_scale=CFG guidance strength, exec_steps=steps executed per MPC cycle, max_steps=episode budget. use_best_selection=true filters M candidates via trajectory_metrics before execution.",
+    "M"         : 8,
+    "cfg_scale" : 2,
+    "ode_steps" : 20,
+    "exec_steps": 20,
+    "max_steps" : 2000,
+    "fps"       : 8,
+    "stride"    : 15,
+    "seed"      : 0,
+    "use_best_selection": true,
+    "maps_dir"  : "outputs/maps",
+    "model_path": "outputs/runs/cond_flow_jitter_fix/best_model.pt",
+    "out_dir"   : "outputs/eval"
+  }
+}

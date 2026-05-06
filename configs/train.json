@@ -1,0 +1,31 @@
+{
+  "_comment": "train.json — model architecture and training hyperparameters.",
+  "_comment2": "Used by: train_cond_flow_policy.py, train_flow_policy.py.",
+  "_comment3": "Load together with common.json via load_config('common', 'train').",
+
+  "_section_model": "=== MODEL ARCHITECTURE ===",
+  "model": {
+    "_comment": "DiT-based conditional flow policy. dim=token width, num_layers=DiT blocks, heads=attention heads.",
+    "dim"       : 128,
+    "num_layers": 4,
+    "heads"     : 4
+  },
+
+  "_section_train": "=== TRAINING ===",
+  "train": {
+    "_comment": "Training loop hyperparameters. p_drop = CFG dropout probability (fraction of steps where goal condition is masked).",
+    "epochs"         : 200,
+    "batch"          : 256,
+    "lr"             : 3e-4,
+    "weight_decay"   : 1e-4,
+    "grad_clip"      : 1.0,
+    "lr_eta_min_frac": 0.01,
+    "val_frac"       : 0.15,
+    "p_drop"         : 0.2,
+    "seed"           : 42,
+    "log_every"      : 20,
+    "save_every"     : 50,
+    "maps_dir"       : "outputs/maps",
+    "out_dir"        : "outputs/runs/cond_flow_jitter_fix"
+  }
+}

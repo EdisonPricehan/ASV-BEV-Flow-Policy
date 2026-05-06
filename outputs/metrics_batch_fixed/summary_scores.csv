@@ -1,0 +1,4 @@
+map_id,expert_safety,expert_goal,expert_smooth,expert_total,expert_collide,expert_min_clr,expert_pos_err,noisy_safety,noisy_goal,noisy_smooth,noisy_total,noisy_collide,noisy_min_clr,noisy_pos_err,bad_safety,bad_goal,bad_smooth,bad_total,bad_collide,bad_min_clr,bad_pos_err
+map_s2_n5_r0,-0.0,-1.5018,-0.0565,-1.5301,0,0.782,4.481,-0.0,-1.5118,-0.2478,-1.6357,0,0.794,4.476,-0.0,-1.9737,-1.0,-2.4737,0,1.631,9.242
+map_s5_n3_r1,-0.0,-1.1465,-0.0565,-1.1748,0,5.187,28.726,-0.0,-1.1366,-0.2693,-1.2712,0,5.189,28.726,-0.0,-1.1273,-1.0,-1.6273,0,2.505,31.003
+map_s8_n1_r0,-0.0,-1.1417,-0.0565,-1.17,0,46.158,37.934,-0.0,-1.1318,-0.2805,-1.272,0,46.186,37.923,-0.0,-1.7383,-1.0,-2.2383,0,46.189,43.594

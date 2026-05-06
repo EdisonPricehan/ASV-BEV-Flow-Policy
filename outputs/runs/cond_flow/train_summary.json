@@ -1,0 +1,6 @@
+{
+  "best_val_loss": 0.052907401199828195,
+  "total_time_min": 16.75,
+  "peak_gpu_mem_gb": 2.705,
+  "n_params": 1661506
+}

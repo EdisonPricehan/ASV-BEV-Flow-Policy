@@ -1,0 +1,69 @@
+{
+  "_comment": "common.json — shared environment, simulation, and data parameters.",
+  "_comment2": "Used by: gen_maps, gen_demos, gen_bev_gifs, FlowDataset, BEVBuilder, trajectory_metrics.",
+
+  "_section_env": "=== MAP ===",
+  "map": {
+    "_comment": "Square-world map geometry and obstacle randomisation.",
+    "D_bev"      : 15.0,
+    "scale"      : 5.0,
+    "scale_min"  : 2.0,
+    "scale_max"  : 8.0,
+    "n_obstacles": 3,
+    "r_min_frac" : 0.03,
+    "r_max_frac" : 0.08,
+    "margin_frac": 0.01,
+    "seed"       : 42
+  },
+
+  "_section_sim": "=== SIMULATOR ===",
+  "simulator": {
+    "_comment": "Forward-Euler unicycle integration timestep [s].",
+    "dt": 0.1
+  },
+
+  "_section_bev": "=== BEV (Bird's-Eye View) ===",
+  "bev": {
+    "_comment": "BEV semantic grid. D_bev must match map.D_bev.",
+    "D_bev": 15.0,
+    "W_bev":  10.0,
+    "res"  :  0.25
+  },
+
+  "_section_demo": "=== DEMO COLLECTION ===",
+  "horizon": {
+    "_comment": "path_scale > 1 allows detours around obstacles during demo generation.",
+    "path_scale": 1.5
+  },
+
+  "controller": {
+    "_comment": "Pure-pursuit / heading controller used during expert demo generation.",
+    "v_nominal"          : 0.6,
+    "v_noise_std"        : 0.03,
+    "v_max"              : 1.0,
+    "v_min"              : 0.0,
+    "k_yaw"              : 3.5,
+    "omega_max"          : 1.0,
+    "wp_switch_dist_frac": 0.10,
+    "wp_noise_std_frac"  : 0.06
+  },
+
+  "demo": {
+    "_comment": "Expert demo generation settings.",
+    "n_demos"         : 25,
+    "seed"            : 42,
+    "max_attempts_mul": 1000,
+    "goal_eps_m"      : 0.5,
+    "goal_yaw_eps_deg": 15.0,
+    "output_path"     : "outputs/data/demos.npz",
+    "map_path"        : "outputs/data/map.json"
+  },
+
+  "_section_dataset": "=== DATASET ===",
+  "dataset": {
+    "_comment": "Sliding-window dataset construction for FlowDataset. D_max is the distance normalisation upper bound for goal_vec.",
+    "D_max"     : 120.0,
+    "stride"    : 3,
+    "K_windows" : 60
+  }
+}

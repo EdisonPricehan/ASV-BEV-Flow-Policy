@@ -1,0 +1,23 @@
+{
+  "cfg_file": "policy/env_config.json",
+  "maps_dir": "policy/maps",
+  "out_dir": "policy/runs/smoke_tqdm",
+  "model": {
+    "dim": 128,
+    "num_layers": 4,
+    "heads": 4
+  },
+  "train": {
+    "epochs": 3,
+    "batch": 256,
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "grad_clip": 1.0,
+    "p_drop": 0.2,
+    "seed": 42,
+    "log_every": 1,
+    "save_every": 3,
+    "val_frac": 0.15,
+    "lr_eta_min_frac": 0.01
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "maps": [
+    {
+      "scale": 2,
+      "n_obs": 1,
+      "seed": 0,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s2_n1_r0"
+    },
+    {
+      "scale": 2,
+      "n_obs": 1,
+      "seed": 1,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s2_n1_r1"
+    },
+    {
+      "scale": 2,
+      "n_obs": 1,
+      "seed": 2,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s2_n1_r2"
+    },
+    {
+      "scale": 2,
+      "n_obs": 3,
+      "seed": 0,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s2_n3_r0"
+    },
+    {
+      "scale": 2,
+      "n_obs": 3,
+      "seed": 1,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s2_n3_r1"
+    },
+    {
+      "scale": 2,
+      "n_obs": 3,
+      "seed": 2,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s2_n3_r2"
+    },
+    {
+      "scale": 2,
+      "n_obs": 5,
+      "seed": 0,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s2_n5_r0"
+    },
+    {
+      "scale": 2,
+      "n_obs": 5,
+      "seed": 1,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s2_n5_r1"
+    },
+    {
+      "scale": 2,
+      "n_obs": 5,
+      "seed": 2,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s2_n5_r2"
+    },
+    {
+      "scale": 5,
+      "n_obs": 1,
+      "seed": 0,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s5_n1_r0"
+    },
+    {
+      "scale": 5,
+      "n_obs": 1,
+      "seed": 1,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s5_n1_r1"
+    },
+    {
+      "scale": 5,
+      "n_obs": 1,
+      "seed": 2,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s5_n1_r2"
+    },
+    {
+      "scale": 5,
+      "n_obs": 3,
+      "seed": 0,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s5_n3_r0"
+    },
+    {
+      "scale": 5,
+      "n_obs": 3,
+      "seed": 1,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s5_n3_r1"
+    },
+    {
+      "scale": 5,
+      "n_obs": 3,
+      "seed": 2,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s5_n3_r2"
+    },
+    {
+      "scale": 5,
+      "n_obs": 5,
+      "seed": 0,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s5_n5_r0"
+    },
+    {
+      "scale": 5,
+      "n_obs": 5,
+      "seed": 1,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s5_n5_r1"
+    },
+    {
+      "scale": 5,
+      "n_obs": 5,
+      "seed": 2,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s5_n5_r2"
+    },
+    {
+      "scale": 8,
+      "n_obs": 1,
+      "seed": 0,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s8_n1_r0"
+    },
+    {
+      "scale": 8,
+      "n_obs": 1,
+      "seed": 1,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s8_n1_r1"
+    },
+    {
+      "scale": 8,
+      "n_obs": 1,
+      "seed": 2,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s8_n1_r2"
+    },
+    {
+      "scale": 8,
+      "n_obs": 3,
+      "seed": 0,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s8_n3_r0"
+    },
+    {
+      "scale": 8,
+      "n_obs": 3,
+      "seed": 1,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s8_n3_r1"
+    },
+    {
+      "scale": 8,
+      "n_obs": 3,
+      "seed": 2,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s8_n3_r2"
+    },
+    {
+      "scale": 8,
+      "n_obs": 5,
+      "seed": 0,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s8_n5_r0"
+    },
+    {
+      "scale": 8,
+      "n_obs": 5,
+      "seed": 1,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s8_n5_r1"
+    },
+    {
+      "scale": 8,
+      "n_obs": 5,
+      "seed": 2,
+      "map_ok": true,
+      "n_demos": 25,
+      "subdir": "/home/naslab-5090/diffusion_models/policy/outputs/maps/map_s8_n5_r2"
+    }
+  ]
+}

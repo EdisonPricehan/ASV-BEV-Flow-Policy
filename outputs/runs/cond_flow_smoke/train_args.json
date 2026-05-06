@@ -1,0 +1,15 @@
+{
+  "maps_dir": "policy/maps",
+  "cfg": "policy/env_config.json",
+  "out_dir": "policy/runs/cond_flow_smoke",
+  "epochs": 3,
+  "batch": 32,
+  "lr": 0.0003,
+  "p_drop": 0.2,
+  "dim": 128,
+  "layers": 4,
+  "heads": 4,
+  "seed": 0,
+  "log_every": 1,
+  "save_every": 3
+}
