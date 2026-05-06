@@ -42,10 +42,11 @@ Rollouts and summaries are saved under `outputs/eval/`.
 
 ## Visualizations (from `outputs/maps/`)
 
-- Map preview:
+Map preview:
 
   <img src="outputs/maps/map_s2_n5_r2/map.png" width="800">
-- Demo preview (GIF):
+
+Demo preview (GIF):
 
   <img src="outputs/maps/map_s2_n5_r2/bev_rollout.gif" autoplay loop muted width=800></img>
 
